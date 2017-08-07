@@ -1,0 +1,6 @@
+pi = 4 * a(1)
+
+print pi
+print "\n"
+
+quit
