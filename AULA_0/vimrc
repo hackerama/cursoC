@@ -1,3 +1,5 @@
+#no diretorio root
+
 set nocompatible
 set nu
 syntax on
