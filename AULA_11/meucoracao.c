@@ -1,17 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int voce(*meucoracao) {
-   
-    printf(meucoracao);
-    printf(*meucoracao);
 
 int main (int argc, char *argv[]) {
-    char voce;
-    char *meucoracao;
-    //voce = "amor";
-    *meucoracao = &voce;
-    voce(*meucoracao);
+    
+    int voce;
+    int *meucoracao = NULL;
+    voce = 10;
+    meucoracao = &voce;
+    
+    printf("%p\n", meucoracao);
+    printf("%d\n", *meucoracao);
 }
 
 
